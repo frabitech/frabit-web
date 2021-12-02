@@ -12,9 +12,13 @@ frabit-server的Web管理平台
    shell> pip install -r requirements.txt 
    ```
  - 初始化数据库
-  ```bash
-  shell> mysql -u root -p'Secure_Passwd' <./scripts/init_frabit.sql
-  ```
+   ```bash
+   shell> mysql -u root -p'Secure_Passwd' <./scripts/init_frabit.sql
+   ```
+   - 启动服务
+   ```bash
+   shell> start.sh
+   ```
    
 
 
