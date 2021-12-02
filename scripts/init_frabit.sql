@@ -45,6 +45,6 @@ index 'idx_host_port' (`host`,`port`)
 ) engine=InnoDB charset = utf8mb4;
 
 # 插入默认账号
-INSERT INTO frabit.users (`name`,`account`,`passwd`,`status`) values ("超管用户","frabit","frabit_123",1,now());
+INSERT INTO frabit.users(`name`,`account`,`passwd`,`status`) values("超管用户","frabit","frabit_123",1,now());
 
 
