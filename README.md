@@ -1,2 +1,2 @@
 # frabit-web
-A platform used with frabit-server
+frabit-server的Web管理平台
