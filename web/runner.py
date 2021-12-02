@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
-from smiling_dog.app import lm,create_app,db
-from smiling_dog.app.models import Admin
+from web import lm,create_app,db
+
 
 application  = create_app('default')
 
