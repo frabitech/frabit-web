@@ -1,11 +1,11 @@
 # -*- coding:utf-8 -*-
-from web import lm,create_app,db
+from web import create_app, db
 
 
 application  = create_app('default')
 
 # 之前遇到的问题，无法初始化一个login manager装饰其，一直报错，现在把它移动到这里，不报错，程序可以正常运行 No user_loader has been installed for this
-lm.init_app(application )
+lm.init_app(application)
 
 @lm.user_loader
 def load_user(user_id):
