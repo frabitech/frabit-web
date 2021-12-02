@@ -17,4 +17,4 @@ frabit-server的Web管理平台
 
 [简体中文](docs/zh/README.md)
 
-[简体中文](docs/en/README.md)
+[English](docs/en/README.md)
