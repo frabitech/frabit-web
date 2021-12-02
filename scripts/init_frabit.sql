@@ -33,4 +33,15 @@ primary key (`id`)
 index 'idx_host_port' (`host`,`port`)
 ) engine=InnoDB charset = utf8mb4;
 
+CREATE TABLE frabit.users(
+ `id` int not null auto_increment comment '自增ID'
+,`name` varchar(15) not null comment '姓名'
+,`account` varchar(15) not null comment '账号'
+,`passwd` varchar(50) not null default '' comment '密码hash值'
+,`status` smallint not null default 0 comment '是否启用'
+,`datetime` varchar(500) not null default '' comment '创建日期'
+primary key (`id`)
+index 'idx_host_port' (`host`,`port`)
+) engine=InnoDB charset = utf8mb4;
+
 
