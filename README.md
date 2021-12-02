@@ -26,6 +26,8 @@ frabit-server的Web管理平台
 - 登录Web界面
 
   **用户名:frabit 密码:frabit_123**
+
+ ![login](images/login.png)
    
 
 
