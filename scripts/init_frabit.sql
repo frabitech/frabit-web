@@ -39,9 +39,12 @@ CREATE TABLE frabit.users(
 ,`account` varchar(15) not null comment '账号'
 ,`passwd` varchar(50) not null default '' comment '密码hash值'
 ,`status` smallint not null default 0 comment '是否启用'
-,`datetime` varchar(500) not null default '' comment '创建日期'
+,`datetime` datetime null default '' comment '创建日期'
 primary key (`id`)
 index 'idx_host_port' (`host`,`port`)
 ) engine=InnoDB charset = utf8mb4;
+
+# 插入默认账号
+INSERT INTO frabit.users (`name`,`account`,`passwd`,`status`) values ("超管用户","frabit","frabit_123",1,now());
 
 
