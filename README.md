@@ -34,7 +34,7 @@ frabit-server的Web管理平台
 
   **用户名:frabit 密码:frabit_123**
 
- ![login](images/login.png)
+ ![login](images/frabit_logo.png)
    
 
 
