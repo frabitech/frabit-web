@@ -4,7 +4,7 @@
 # This file is part of frabit-web
 
 from flask import Flask
-from flask_ootstrap import Bootstrap
+from flask_bootstrap import Bootstrap
 from flask_mail import Mail
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
