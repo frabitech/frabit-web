@@ -59,7 +59,7 @@ setup(
     },
     platforms=['Linux'],
     classifiers=[
-        'Environment :: Console',
+        'Environment :: Web',
         'Development Status :: 5 - Production/Stable',
         'Topic :: System :: Archiving :: Backup',
         'Topic :: Database',
