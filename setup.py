@@ -27,7 +27,7 @@ install_requires = [
 
 if sys.version_info < (2, 7):
     install_requires += [
-        'argparse',
+        'Flask',
     ]
     # If we are going to execute tests, we need to enforce wheel
     # version before installing mock, or it will fail
@@ -40,6 +40,7 @@ frabit = {}
 with open('web/version.py', 'r') as version:
     exec(version.read(), frabit)
 
+
 setup(
     name='frabit-web',
     version=frabit['__version__'],
@@ -50,6 +51,8 @@ setup(
     license='GPL-3.0',
     description=__doc__.split("\n")[0],
     long_description="\n".join(__doc__.split("\n")[2:]),
+    include_package_data=True,
+    zip_safe=False,
     install_requires=install_requires,
     extras_require={
         'completion': ['argcomplete'],
