@@ -4,7 +4,6 @@
 # This file is part of frabit-web
 
 from flask import Blueprint
-
+from . import views
 backup = Blueprint('backup', __name__)
 
-from . import views

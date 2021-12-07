@@ -14,6 +14,11 @@ frabit-server的Web管理平台
    ```bash
    shell> git clone https://github.com/frabitech/frabit-web.git
    ```
+   
+ - create venv 
+   ```bash
+   shell> pip install -r requirements.txt 
+   ```
  - 安装依赖
    ```bash
    shell> pip install -r requirements.txt 
