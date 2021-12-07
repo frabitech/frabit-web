@@ -15,7 +15,7 @@ frabit-server的Web管理平台
    shell> git clone https://github.com/frabitech/frabit-web.git
    ```
    
- - chuangjian
+ - create 
    ```bash
    shell> pip install -r requirements.txt 
    ```
