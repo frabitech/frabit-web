@@ -17,23 +17,25 @@ frabit-server的Web管理平台
    
  - 创建虚拟环境 
    ```bash
-   shell> pip install -r requirements.txt 
+   shell> virtualenv venv
+   shell> source venv/bin/activate
+   (ven) shell>
    ```
  - 安装依赖
    ```bash
-   shell> pip install -r requirements.txt 
+   (ven) shell> pip install -r requirements.txt 
    ```
  - 初始化数据库
    ```bash
-   shell> mysql -u root -p'Secure_Passwd' <./scripts/init_frabit.sql
+   (ven) shell> mysql -u root -p'Secure_Passwd' <./scripts/init_frabit.sql
    ```
  - 修改配置文件
    ```bash
-   shell> vim /etc/frabit.cnf
+   (ven) shell> vim /etc/frabit.cnf
    ```
  - 启动服务
    ```bash
-   shell> start.sh
+   (ven) shell> start.sh
    ```
 - 登录Web界面
 
