@@ -15,7 +15,7 @@ frabit-server的Web管理平台
    shell> git clone https://github.com/frabitech/frabit-web.git
    ```
    
- - create 
+ - 创建虚拟环境 
    ```bash
    shell> pip install -r requirements.txt 
    ```
