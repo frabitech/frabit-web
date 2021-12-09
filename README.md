@@ -1,5 +1,5 @@
 # frabit-web
-![PyPI - License](https://img.shields.io/github.com/frabitech/frabit-web)
+![PyPI - License](https://img.shields.io/github/v/release/frabitech/frabit-web)
 ![size](https://img.shields.io/github/repo-size/blylei/frabit)
 ![lang](https://img.shields.io/pypi/pyversions/frabit)
 [![status](https://img.shields.io/github/checks-status/blylei/frabit/master)](https://github.com/blylei/frabit/releases)
