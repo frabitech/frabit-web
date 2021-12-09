@@ -3,7 +3,7 @@
 ![size](https://img.shields.io/github/repo-size/blylei/frabit)
 ![lang](https://img.shields.io/pypi/pyversions/frabit)
 [![status](https://img.shields.io/github/checks-status/blylei/frabit/master)](https://github.com/blylei/frabit/releases)
-[![downloads](https://img.shields.io/github/downloads/blylei/frabit/total.svg)](https://github.com/blylei/frabit/releases)
+[![downloads](https://img.shields.io/github/downloads/frabitech/frabit-web/total.svg)](https://github.com/blylei/frabit/releases)
 
 frabit-server的Web管理平台
 
