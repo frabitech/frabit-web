@@ -1,0 +1,6 @@
+mysql-connector-python>=8.0.22
+argh>=0.21.2
+python-dateutil
+
+[completion]
+argcomplete
