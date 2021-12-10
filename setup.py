@@ -59,7 +59,8 @@ setup(
     },
     platforms=['Linux'],
     classifiers=[
-        'Environment :: Web',
+        'Framework :: Flask',
+        'Environment :: Web Environment',
         'Development Status :: 5 - Production/Stable',
         'Topic :: System :: Archiving :: Backup',
         'Topic :: Database',
