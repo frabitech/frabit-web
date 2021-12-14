@@ -6,7 +6,7 @@
 [![downloads](https://img.shields.io/github/downloads/frabitech/frabit-web/total.svg)](https://github.com/blylei/frabit/releases)
 [![pypi](https://img.shields.io/pypi/v/frabit-web)](https://github.com/frabitech/frabit-web/releases)
 [![Upload PyPi](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml/badge.svg)](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml)
-
+[![CI](https://github.com/frabitech/frabit-web/actions/workflows/main.yml/badge.svg)](https://github.com/frabitech/frabit-web/actions/workflows/main.yml)
 ## 一个基于frabit-server的Web管理平台
 
 ## 部署
