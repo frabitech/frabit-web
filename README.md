@@ -4,6 +4,7 @@
 ![lang](https://img.shields.io/pypi/pyversions/frabit)
 [![status](https://img.shields.io/pypi/status/frabit-web)](https://github.com/frabitech/frabit-web/releases)
 [![downloads](https://img.shields.io/github/downloads/frabitech/frabit-web/total.svg)](https://github.com/blylei/frabit/releases)
+[![Upload PyPi](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml/badge.svg)](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml)
 
 基于frabit-server的Web管理平台
 
