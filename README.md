@@ -7,7 +7,7 @@
 [![pypi](https://img.shields.io/pypi/v/frabit-web)](https://github.com/frabitech/frabit-web/releases)
 [![Upload PyPi](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml/badge.svg)](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml)
 
-基于frabit-server的Web管理平台
+# 一个基于frabit-server的Web管理平台
 
 ## 部署
 
