@@ -1,9 +1,10 @@
 # frabit-web
-![PyPI - License](https://img.shields.io/github/v/release/frabitech/frabit-web)
-![size](https://img.shields.io/github/repo-size/blylei/frabit)
-![lang](https://img.shields.io/pypi/pyversions/frabit)
+![PyPI - License](https://img.shields.io/github/license/frabitech/frabit-web)
+![size](https://img.shields.io/github/repo-size/frabitech/frabit-web)
+![lang](https://img.shields.io/pypi/pyversions/frabit-web)
 [![status](https://img.shields.io/pypi/status/frabit-web)](https://github.com/frabitech/frabit-web/releases)
 [![downloads](https://img.shields.io/github/downloads/frabitech/frabit-web/total.svg)](https://github.com/blylei/frabit/releases)
+[![pypi](https://img.shields.io/pypi/v/frabit-web)](https://github.com/frabitech/frabit-web/releases)
 [![Upload PyPi](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml/badge.svg)](https://github.com/frabitech/frabit-web/actions/workflows/python-publish.yml)
 
 基于frabit-server的Web管理平台
