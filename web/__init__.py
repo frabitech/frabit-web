@@ -42,10 +42,39 @@ def create_app(config_name):
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
+    from .api import api as api_blueprint
+    app.register_blueprint(api_blueprint, url_prefix='/api/v1')
+
     from .backup import backup as auth_blueprint
     app.register_blueprint(auth_blueprint, url_prefix='/backup')
 
-    from .api import api as api_blueprint
-    app.register_blueprint(api_blueprint, url_prefix='/api/v1')
+    from .config import config as config_blueprint
+    app.register_blueprint(config_blueprint, url_prefix='/config')
+
+    from .display import display as display_blueprint
+    app.register_blueprint(display_blueprint, url_prefix='/display')
+
+    from .login import login as login_blueprint
+    app.register_blueprint(login_blueprint, url_prefix='/login')
+
+    from .manager import manager as manager_blueprint
+    app.register_blueprint(manager_blueprint, url_prefix='/manager')
+
+    from .pitr import pitr as pitr_blueprint
+    app.register_blueprint(pitr_blueprint, url_prefix='/pitr')
+
+    from .restore import restore as restore_blueprint
+    app.register_blueprint(restore_blueprint, url_prefix='/restore')
+
+    from .schedule import schedule as schedule_blueprint
+    app.register_blueprint(schedule_blueprint, url_prefix='/schedule')
+
+    from .upload import upload as upload_blueprint
+    app.register_blueprint(upload_blueprint, url_prefix='/upload')
+
+
+
+
+
 
     return app
